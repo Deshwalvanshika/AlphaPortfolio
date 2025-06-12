@@ -1,0 +1,13 @@
+# Core dependencies
+numpy>=1.26.4               # Numerical operations
+pandas>=2.2.2               # Data manipulation
+scikit-learn>=1.4.2         # ML models & preprocessing
+matplotlib>=3.8.4           # Plotting
+seaborn>=0.13.2             # Statistical plots
+torch>=2.3.0                # Deep learning & tensor ops
+openai>=1.30.1              # OpenAI API for LLMs
+
+# Jupyter and development tools
+jupyter>=1.0.0              # Jupyter environment
+notebook>=7.0.0             # Jupyter notebook server
+
