@@ -3,7 +3,7 @@
 
 > **LLM-Driven Discovery of Smarter Portfolio Optimization Strategies**
 
-AlphaPortfolio+ is an AI-powered framework that leverages Large Language Models (LLMs) like GPT to **discover, evaluate, and evolve** portfolio optimization strategies. Inspired by the [ICLR 2025 paper](https://arxiv.org/abs/2401.11101) titled *"AlphaPortfolio: Discovery of Portfolio Optimization and Allocation Methods Using LLMs"*, this project adapts and implements the core ideas in Python using PyTorch and financial datasets.
+AlphaPortfolio+ is an AI-powered framework that leverages Large Language Models (LLMs) like GPT to **discover, evaluate, and evolve** portfolio optimization strategies. Inspired by the [ICLR 2025 paper](file:///C:/Users/vansh/OneDrive/Desktop/AlphaPortfolio+/ssrn-5118317.pdf) titled *"AlphaPortfolio: Discovery of Portfolio Optimization and Allocation Methods Using LLMs"*, this project adapts and implements the core ideas in Python using PyTorch and financial datasets.
 
 ---
 
