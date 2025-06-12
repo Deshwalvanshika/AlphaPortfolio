@@ -87,15 +87,6 @@ pip install -r requirements.txt
 
 ---
 
-## 👥 Team
-
-| Name           | Roll No. | Contributions                             |
-|----------------|----------|--------------------------------------------|
-| Jhanvi Aggarwal | B22211   | Research, result testing, plotting         |
-| Vanshika        | B22247   | Data processing, algorithm implementation  |
-
----
-
 ## 📌 Conclusion
 
 AlphaPortfolio+ showcases how AI and finance can blend to redefine investing. With LLMs acting as idea generators and optimizers, this framework creates **adaptive, data-driven, and resilient** portfolios, outperforming classical methods significantly.
