@@ -67,7 +67,8 @@ AlphaPortfolio+ is an AI-powered framework that leverages Large Language Models 
 
 - `Jupyter_notebook.ipynb`: Full implementation in PyTorch
 - `report.pdf`: Detailed write-up with results, figures, and conclusion
-- `ssrn-5118317.pdf`: Research paper (ICLR 2025 submission)
+- `ssrn-5118317.pdf`: Research paper (ALPHAPORTFOLIO: DISCOVERY OF PORTFOLIO OPTI
+MIZATION AND ALLOCATION METHODS USING LLMS)
 
 ---
 
