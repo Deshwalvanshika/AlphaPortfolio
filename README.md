@@ -6,19 +6,20 @@ AlphaPortfolio+ is an AI-powered framework that leverages Large Language Models 
 
 ---
 
-### 🌐 Live Site  
-📈 [alpha-portfolio12.netlify.app](https://alpha-portfolio12.netlify.app)
+### 🌐 Live Website  
+📈 Explore the visual version:  
+🔗 [https://alpha-portfolio12.netlify.app](https://alpha-portfolio12.netlify.app)
 
-> 👉 Visit the site to explore project methodology, results, visualizations, and conclusion in a React-powered interactive format.
+> The interactive frontend (built in React) presents the methodology, performance metrics, and insights in a clean, portfolio-style web format.
 
 ---
 
 ## 🚀 Project Highlights
 
-- **LLM-Driven Optimization**: Uses GPT-based LLMs to auto-generate and refine portfolio allocation functions.
-- **Entropy Regularization**: Ensures diversification by penalizing over-concentration.
-- **Volatility Normalization**: Promotes risk-aware asset weights.
-- **Outperformance**: Significantly outperforms traditional strategies across Sharpe, Sortino, Calmar ratios, and Max Drawdown.
+- **LLM-Driven Optimization**: Uses GPT-based LLMs to generate and evolve portfolio allocation strategies.
+- **Entropy Regularization**: Ensures better diversification by penalizing over-concentration.
+- **Volatility Normalization**: Encourages risk-aware asset allocations.
+- **Outperformance**: Demonstrates significantly improved Sharpe, Sortino, and Calmar ratios with reduced drawdowns.
 
 ---
 
@@ -31,70 +32,93 @@ AlphaPortfolio+ is an AI-powered framework that leverages Large Language Models 
 | Risk Parity (RP)      | 0.029  | 0.027   | 0.001  | -36.29%       |
 | Equal Risk Contribution (ERC) | 0.020  | 0.018   | 0.001  | -45.01%       |
 
-> 🔥 AlphaPortfolio+ shows the best results across all metrics with up to **70% drawdown reduction**.
+> 📊 AlphaPortfolio+ outperforms across all metrics with up to **70% drawdown reduction** and triple the Sharpe Ratio of traditional strategies.
 
 ---
 
 ## 🧠 Methodology
 
-1. **Data Preprocessing**:
+1. **Data Preprocessing**
    - 15 years of US stock and ETF data (log returns)
-   - Cleaned, filtered, and converted to PyTorch tensors
+   - Data cleaned, scaled, and converted to PyTorch tensors
 
-2. **Strategy Generation (LLM-Inspired)**:
+2. **LLM-Inspired Strategy Discovery**
    - Inverse covariance risk-adjusted returns
-   - Softmax normalization with stability boosting
-   - Entropy-based regularization to enforce diversification
+   - Stability-based softmax normalization
+   - Entropy-based regularization for diversified weights
 
-3. **Custom Loss Function**:
-   Combines:
-   - Risk-return score
-   - Drawdown penalty
-   - Entropy penalty
-   - Volatility penalty
+3. **Custom Loss Function**
+   - Combines return, drawdown, entropy, and volatility penalties
 
-4. **Evaluation**:
+4. **Evaluation Framework**
    - Time-series cross-validation
-   - Metrics: Sharpe, Sortino, Calmar, Max Drawdown
+   - Performance based on Sharpe, Sortino, Calmar, Max Drawdown
 
 ---
 
 ## 📊 Visuals
 
-- **Bar Plots** for performance metrics
-- **Drawdown Comparison** chart
-- **Cumulative Returns** line plot showing $1 investment growth
+- 📉 Risk-adjusted performance bar charts
+- 🔻 Drawdown comparisons
+- 📈 Cumulative return growth over time
 
-> 🖼️ These plots visually confirm AlphaPortfolio+'s superior stability and profitability.
-
----
-
-## 📁 Files
-
-- Jupyter_notebook.ipynb: Full implementation in PyTorch
-- report.pdf: Detailed write-up with results, figures, and conclusion
-- ssrn-5118317.pdf: Research paper (ALPHAPORTFOLIO: DISCOVERY OF PORTFOLIO OPTI
-MIZATION AND ALLOCATION METHODS USING LLMS)
+> All visuals are also embedded in the [Live Website](https://alpha-portfolio12.netlify.app)
 
 ---
 
-## ⚙️ Requirements
+## 📁 Project Structure
 
-bash
+```
+AlphaPortfolio/
+├── notebooks/              # Jupyter notebooks (LLM logic + backtest)
+├── portfolio/              # React frontend for website
+├── assets/                 # Images and result graphs
+├── report.pdf              # Final detailed report
+├── ssrn-5118317.pdf        # Original research paper
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 🔬 For Notebook Users
+
+```bash
 pip install -r requirements.txt
-
+```
 
 **Key Dependencies**:
 - pandas
 - numpy
 - matplotlib
-- torch
 - seaborn
+- torch
 - scikit-learn
+
+---
+
+### 🌐 For Website Developers
+
+```bash
+cd portfolio
+npm install
+npm start
+```
+
+To build for deployment:
+```bash
+npm run build
+```
+
+Deployed via: [Netlify](https://www.netlify.com)
 
 ---
 
 ## 📌 Conclusion
 
-AlphaPortfolio+ showcases how AI and finance can blend to redefine investing. With LLMs acting as idea generators and optimizers, this framework creates **adaptive, data-driven, and resilient** portfolios, outperforming classical methods significantly. make changes in it to add website 
+AlphaPortfolio+ demonstrates how LLMs can be powerful co-pilots in financial modeling — discovering, evolving, and improving portfolio optimization strategies beyond rigid human heuristics. It blends deep learning, evolutionary scoring, and modern finance into one interpretable and high-performing solution.
 
+> Built with 💙 by Vanshika 
+> 📫 For queries: deshwalvanshika@gmail.com
