@@ -1,0 +1,112 @@
+/* styles.css */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background-color: #262121;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .brand {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 6px 10px;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #262121;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #262121;
+}
+
+ul {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+pre {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+img.graph {
+  max-width: 100%;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #262121;
+}
+
+details {
+  margin-top: 1rem;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
