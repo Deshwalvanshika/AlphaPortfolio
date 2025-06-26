@@ -69,5 +69,32 @@ AlphaPortfolio+ is an AI-powered framework that leverages Large Language Models 
 
 ---
 
-## 📁 Project Structure
+## 📁 Files
+
+- Jupyter_notebook.ipynb: Full implementation in PyTorch
+- report.pdf: Detailed write-up with results, figures, and conclusion
+- ssrn-5118317.pdf: Research paper (ALPHAPORTFOLIO: DISCOVERY OF PORTFOLIO OPTI
+MIZATION AND ALLOCATION METHODS USING LLMS)
+
+---
+
+## ⚙️ Requirements
+
+bash
+pip install -r requirements.txt
+
+
+**Key Dependencies**:
+- pandas
+- numpy
+- matplotlib
+- torch
+- seaborn
+- scikit-learn
+
+---
+
+## 📌 Conclusion
+
+AlphaPortfolio+ showcases how AI and finance can blend to redefine investing. With LLMs acting as idea generators and optimizers, this framework creates **adaptive, data-driven, and resilient** portfolios, outperforming classical methods significantly. make changes in it to add website 
 
