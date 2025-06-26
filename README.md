@@ -120,5 +120,5 @@ Deployed via: [Netlify](https://www.netlify.com)
 
 AlphaPortfolio+ demonstrates how LLMs can be powerful co-pilots in financial modeling — discovering, evolving, and improving portfolio optimization strategies beyond rigid human heuristics. It blends deep learning, evolutionary scoring, and modern finance into one interpretable and high-performing solution.
 
-> Built with 💙 by Vanshika 
-> 📫 For queries: deshwalvanshika@gmail.com
+> by Vanshika 
+> 
